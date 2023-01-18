@@ -15,13 +15,7 @@ pipeline {
                 sh 'terraform fmt'
             }
         }
-       /*stage('Validate') {
-            steps {
-                echo 'starting validaion'
-                sh 'date'
-                sh 'terraform validate'
-            }
-        }/* 
+       
         stage('Plan') {
             steps {
                 echo 'planning started'
