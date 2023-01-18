@@ -33,7 +33,7 @@ pipeline {
             steps {
                 echo 'deploying to aws'
                 echo 'date'
-                sh 'terraform destroy --auto-approve'
+                sh 'terraform apply --auto-approve'
             }
         }
     }
