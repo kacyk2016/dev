@@ -13,7 +13,7 @@ variable "region" {
 variable "my_ami" {
     description = "aws ami"
     type = string
-    default = "ami-06640050dc3f556bb"
+    default = "ami-0d03b1ad793d7ac93"
     }
 variable "key" {
     description = "aws key"
